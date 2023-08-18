@@ -62,7 +62,11 @@ The modified state is when a file has been changed but not staged. This means th
 
 Inside our `git-demo` directory if we run the command `git status` we should see something like this:
 
-![git status not modified](./assets/git-status-not-modified.png)
+<div style="align:center; background-color:black;">
+    <img src="./assets/git-status-not-modified.png">
+</div>
+
+<!-- ![git status not modified](./assets/git-status-not-modified.png) -->
 
 Let's add a file named `star-trek.md` and add some text to it.
 
