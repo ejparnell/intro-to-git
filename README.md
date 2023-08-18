@@ -58,15 +58,11 @@ Once we have a repository we can start to use Git to keep track of our changes. 
 
 The modified state is when a file has been changed but not staged. This means that Git is aware that there are some changes in the file but it is not tracking them. To see what files have been modified we can run the command `git status`. This will show us all the files that have been modified.
 
-#### 💻 Code-Along: Create a new file and modify it**
+#### 💻 Code-Along: Create a new file and modify it
 
 Inside our `git-demo` directory if we run the command `git status` we should see something like this:
 
-<div style="align:center; background-color:black;">
-    <img src="./assets/git-status-not-modified.png">
-</div>
-
-<!-- ![git status not modified](./assets/git-status-not-modified.png) -->
+![git status not modified](./assets/git-status-not-modified.png)
 
 Let's add a file named `star-trek.md` and add some text to it.
 
