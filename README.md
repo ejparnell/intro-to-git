@@ -88,7 +88,7 @@ Now if we run the command `git status` we should see something like this:
 
 ![git status modified](./assets/git-status-modified.png)
 
-👀 -> Notice that the `star-trek.md` file is listed under the `Untracked files` section. Git is aware that this file exists but it is not tracking it. We can tell Git to start tracking this file by adding it to the staging area.
+👀 ➡️ Notice that the `star-trek.md` file is listed under the `Untracked files` section. Git is aware that this file exists but it is not tracking it. We can tell Git to start tracking this file by adding it to the staging area.
 
 > Note: Current working directory should be `git-demo`
 
@@ -111,7 +111,7 @@ Now if we run the command `git status` we should see something like this:
 
 ![git status staged](./assets/git-status-staged.png)
 
-👀 -> Notice that the `star-trek.md` file is listed under the `Changes to be committed` section. Git is now tracking this file and is ready to commit it.
+👀 ➡️ Notice that the `star-trek.md` file is listed under the `Changes to be committed` section. Git is now tracking this file and is ready to commit it.
 
 > Note: Current working directory should be `git-demo`
 
@@ -163,7 +163,7 @@ Now if we run the command `git branch` we should see something like this:
 
 ![tng branch](./assets/tng-branch.png)
 
-👀 -> Notice that the `*` is next to the `tng` branch. This means that we are currently on the `tng` branch.
+👀 ➡️ Notice that the `*` is next to the `tng` branch. This means that we are currently on the `tng` branch.
 
 Now let's modify the `star-trek.md` file:
 
@@ -205,4 +205,4 @@ git checkout tng
 code .
 ```
 
-👀 -> It's the characters from Star Trek: The Next Generation. We can switch back and forth between branches and see the changes but this is how we separate our work from the original codebase.
+👀 ➡️ It's the characters from Star Trek: The Next Generation. We can switch back and forth between branches and see the changes but this is how we separate our work from the original codebase.
